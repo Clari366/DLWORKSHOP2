@@ -28,6 +28,14 @@ Epochs: 10
 
 Batch size: 16
 
+📊 Evaluation & Visualization
+
+Compute test accuracy on the test dataset
+Plot CrossEntropyLoss vs Epochs for training and validation
+Plot confusion matrix for performance analysis
+Use predict_and_show(image_path) for single-image prediction
+Supports real images outside the dataset
+
 Requirements
 torch>=2.1.0
 torchvision>=0.16.0
@@ -51,12 +59,8 @@ jupyter notebook notebooks/cat_dog_panda_transfer_learning.ipynb
 Prediction:
 
 Place your images in any folder, e.g., Downloads/.
-
 The notebook has a function predict_and_show(image_path) to display the image with predicted label.
-
-predict_and_show("C:/Users/admin/Downloads/dog.jpg")     # outputs: dog
-predict_and_show("C:/Users/admin/Downloads/panda.png")   # outputs: panda
-
+Pre-trained ResNet18 ensures good predictions even with small datasets
 Notes
 
 Training on dummy images does not give meaningful results.
