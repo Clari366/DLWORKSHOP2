@@ -25,6 +25,7 @@ It uses transfer learning from a pretrained ResNet18 model, making it highly acc
 
 🗂️ Dataset Structure
 Your dataset folder should be organized as follows:
+```
 Cat-Dog_Pandas/
 │
 ├── Train/
@@ -36,7 +37,7 @@ Cat-Dog_Pandas/
     ├── cat/
     ├── dog/
     └── panda/
-    
+```
 🖥️ Environment Setup
 
 Python version: 3.9+
